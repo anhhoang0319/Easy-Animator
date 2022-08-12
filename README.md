@@ -5,15 +5,14 @@
 The project is intended for learning and practicing CS concepts/topics, which includes object-oriented design, MVC architecture, testing, GUI etc. 
 
 
-**The scope of this assignment** was to implement the MVC framework that divided the functionalities of implementing animation into three components: model, view and the controller to project animations such as:
+**The scope of this assignment** was to implement the MVC framework that divided the assignment into three components: model, view and the controller. this assignment can visualize some simple animations such as:
 
-* Small Demonstration
 * Towers of Hanoi
 * The Night Sky
 * Big Bang and Crunch
 
 **How to play animation:**
-The animator is designed to run in the terminal with a JAR file and command-line arguement. The program reads one of the existing formated and provided input text files in the specified play mode (can be found under "util/code/"). If the chosen play mode is visual, users need to specify the play speed (e.g., "-speed 50"; the bigger the number, the greater the speed). In svg/text mode, if the user would like to save the svg/text output to a file, this can be done by typing "-out" and specifying an output file name in the command-line. Here are some valid examples of the command-line argument to run the animator: 
+The animator is designed to run in the terminal with a JAR file and command-line argument. The program reads one of the existing formated and provided input text files in the specified play mode (can be found under "util/code/"). If the chosen play mode is visual, users need to specify the play speed (e.g., "-speed 50"; the bigger the number, the greater the speed). In svg/text mode, if the user would like to save the svg/text output to a file, this can be done by typing "-out" and specifying an output file name in the command-line. Here are some valid examples of the command-line argument to run the animator: 
 
 - java -cp EasyAnimator.jar cs5004.animator.controller.EasyAnimator -in toh-3.txt -view text 
 - java -cp EasyAnimator.jar cs5004.animator.controller.EasyAnimator -in toh-3.txt -out -outfilename -view svg 
